@@ -11,6 +11,6 @@ export default class EventService {
   }
 
   addEvent(event) {
-    this.$http.put(`${this.url}events`, event);
+    return this.$http.put(`${this.url}events`, event);
   }
 }

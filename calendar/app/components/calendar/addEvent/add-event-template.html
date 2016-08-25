@@ -1,4 +1,4 @@
-<form name="$ctrl.addEventForm">
+<form name="$ctrl.addEventForm" ng-submit="$ctrl.addEvent($ctrl.event)">
     <div class="col-xs-12 col-sm-2 sidebar-offcanvas active" id="sidebar" role="navigation">
         <div class="panel panel-default special-font">
             <div class="panel-header">
@@ -31,7 +31,7 @@
             </div>
             <div class="panel-footer">
                 &nbsp;
-                <button class="btn btn-primary pull-right">Add event</button>
+                <button type="submit" class="btn btn-primary pull-right">Add event</button>
             </div> 
         </div>
     </div>
