@@ -1,3 +1,5 @@
+import angular from 'angular';
+
 export default class AddEventController {
 
   static $inject = ['$log', '$state', 'EventService'];
@@ -6,18 +8,17 @@ export default class AddEventController {
     this.$log = $log;
     this.$state = $state;
     this.EventService = EventService;
-
     this.defaultEvent = {
-      color : {
-        primary : '#aaaaaa',
+      color: {
+        primary: '#aaaaaa',
       },
+      allDay: false,
     };
     this.event = angular.copy(this.defaultEvent);
   }
-  
   addEvent(event) {
     this.EventService.addEvent(event).then(() => {
-        this.events.push(event);
+      this.events.push(event);
     });
   }
 }

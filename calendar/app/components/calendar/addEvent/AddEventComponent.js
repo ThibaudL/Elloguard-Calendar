@@ -5,6 +5,6 @@ export default {
   template: AddEventTemplate,
   controller: AddEventController,
   bindings: {
-    events: '='
-  }
+    events: '=',
+  },
 };

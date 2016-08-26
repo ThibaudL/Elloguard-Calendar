@@ -1,13 +1,1 @@
-{"id":1,"title":"An event","startsAt":"2016-08-18T22:00:00.000Z","endsAt":"2016-08-18T22:00:00.000Z","color":{"primary":"#e0347c","secondary":"#fdf1ba"},"actions":[],"draggable":true,"resizable":true,"incrementsBadgeTotal":true,"recursOn":"year","cssClass":"a-css-class-name","allDay":false}
-{"id":2,"title":"An event","startsAt":"2016-08-18T22:00:00.000Z","endsAt":"2016-08-18T22:00:00.000Z","color":{"primary":"#e3bc08","secondary":"#fdf1ba"},"actions":[],"draggable":true,"resizable":true,"incrementsBadgeTotal":true,"recursOn":"year","cssClass":"a-css-class-name","allDay":false}
-{"id":3,"title":"An event","startsAt":"2016-08-18T22:00:00.000Z","endsAt":"2016-08-18T22:00:00.000Z","color":{"primary":"#e3bc08","secondary":"#fdf1ba"},"actions":[],"draggable":true,"resizable":true,"incrementsBadgeTotal":true,"recursOn":"year","cssClass":"a-css-class-name","allDay":false}
-{"color":{"primary":"#aaaaaa"},"title":"test","startsAt":"2016-08-24T22:00:00.000Z","endsAt":null,"id":4}
-{"color":{"primary":"#aaaaaa"},"title":"test","startsAt":"2016-08-24T22:00:00.000Z","endsAt":null,"id":5}
-{"color":{"primary":"#aaaaaa"},"title":"test","startsAt":"2016-08-24T22:00:00.000Z","endsAt":null,"id":6}
-{"color":{"primary":"#c71010"},"title":"test","startsAt":"2016-08-25T01:03:00.000Z","endsAt":"2016-08-27T01:03:00.000Z","id":7}
-{"color":{"primary":"#c71010"},"title":"test","startsAt":"2016-08-25T01:03:00.000Z","endsAt":"2016-08-27T01:03:00.000Z","id":8}
-{"color":{"primary":"#c71010"},"title":"test","startsAt":"2016-08-25T01:03:00.000Z","endsAt":"2016-08-27T01:03:00.000Z","id":9}
-{"color":{"primary":"#bd46b1"},"title":"TEst3","startsAt":"2016-08-14T23:02:00.000Z","endsAt":"2016-08-17T00:30:00.000Z","id":10}
-{"color":{"primary":"#bd46b1"},"title":"TEst3","startsAt":"2016-08-14T23:02:00.000Z","endsAt":"2016-08-17T00:30:00.000Z","id":11}
-{"color":{"primary":"#bd46b1"},"title":"TEst3","startsAt":"2016-08-14T23:02:00.000Z","endsAt":"2016-08-17T00:30:00.000Z","id":12}
-{"color":{"primary":"#29ff31"},"title":"test","startsAt":"2016-08-04T23:01:00.000Z","endsAt":"2016-08-06T00:03:00.000Z","id":13}
+{"color":{"primary":"#aaaaaa"},"allDay":false,"title":"Test","startsAt":"2016-08-25T23:02:00.000Z","endsAt":"2016-08-27T10:12:00.000Z","id":null}

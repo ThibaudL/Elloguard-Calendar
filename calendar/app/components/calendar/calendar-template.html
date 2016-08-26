@@ -10,6 +10,22 @@
     <add-event events="$ctrl.events"></add-event>
   </div>
   <div class="container">
+    <div class="pull-right">
+      <div class="btn-group">
+        <label class="btn btn-default" ng-click="$ctrl.calendarView = 'year'" ng-class="{'btn-primary' : $ctrl.calendarView === 'year'}">Year</label>
+        <label class="btn btn-default" ng-click="$ctrl.calendarView = 'month'" ng-class="{'btn-primary' : $ctrl.calendarView === 'month'}">Month</label>
+        <label class="btn btn-default" ng-click="$ctrl.calendarView = 'week'" ng-class="{'btn-primary' : $ctrl.calendarView === 'week'}">Week</label>
+        <label class="btn btn-default" ng-click="$ctrl.calendarView = 'day'" ng-class="{'btn-primary' : $ctrl.calendarView === 'day'}">Day</label>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="text-center">
+      <h3>{{$ctrl.calendarTitle}}<h3>
+    </div>
+  </div>
+  <div class="container">
     
     <mwl-calendar
         view="$ctrl.calendarView"
